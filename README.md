@@ -22,9 +22,9 @@ Data features containing null values are investigated and handled accordingly.
 
 ## Data Preprocessing
 
-The features of numerical data types were displayed on a heatmap to see the extent to which they are correlated with the target, 'price', as well as with each other.
+The features of numerical data types were displayed on a heat map to see the extent to which they are correlated with the target, 'price', as well as with each other.
 
-[]
+<img src= "Images/heatmap.png" alt = "heat map">
 
 While both 'model_year' and 'milage' had a relatively strong correlation with price, 'milage' had a stronger correlation. They were also highly correlated with each other.
 
@@ -79,3 +79,5 @@ Next Steps:
 - Try other hyperparameters and different values to improve RMSE even more
 - Investigate other features of used cars to see their relationship to sale price
 - Try out other modeling techniques, to see if any perform even better than the tuned GBM model
+
+<img src= "Images/car_sale.jpg" alt = "Car Sale">
