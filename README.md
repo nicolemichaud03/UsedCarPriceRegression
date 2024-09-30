@@ -4,6 +4,8 @@
 
 <b>30 September, 2024</b>
 
+<a href="https://www.kaggle.com/code/nicolemichaud/predicting-used-car-prices"> Go to project notebook on Kaggle</a>
+
 The goal of this project is to use various features of used cars to predict the sale price of used cars in unseen data. Different modeling techniques, including multiple linear regression, lasso regression, random forests, and gradient boosting regressor, as well as hyperparameter tuning with GridSearchCV are used to obtain a regression model with a RMSE value that is improved from the RMSE of the baseline (first) model.
 
 <img src= "Images/car_lot.jpg" alt = "Car Lot">
